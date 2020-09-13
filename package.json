@@ -1,0 +1,56 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.dev",
+    "build": "npx webpack --env.prod",
+    "test": "jest-webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^3.4.1",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.8.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.20.6",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "jest": "^26.4.2",
+    "jest-webpack": "^0.5.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-webpack-plugin": "^2.1.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 version",
+    "not dead"
+  ],
+  "jest": {
+    "roots": [
+      "./tests/"
+    ]
+  }
+}

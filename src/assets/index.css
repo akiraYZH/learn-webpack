@@ -1,0 +1,6 @@
+.title {
+  color: red;
+  background-image: url("./apple.png");
+  transform: rotate(30deg);
+  transition: 1s all ease;
+}
